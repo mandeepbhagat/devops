@@ -1,1 +1,17 @@
-in local
+Public IP
+18.207.228.154
+
+DSN
+ec2-18-207-228-154.compute-1.amazonaws.com
+
+sudo docker pull umangsaltuniv/verity-devops-2-222-3
+
+
+sudo docker run -it -p 8080:8080 umangsaltuniv/verity-devops-2-222-3
+
+602a588377ac4845b3a427fa3c66ee04
+
+sudo docker run --user root -p 8080:8080 -p 50000:50000 --restart=on-failure jenkins/jenkins:lts-jdk11
+
+
+86fe6ba0f5214d80ba395a4f6f1aab2b
